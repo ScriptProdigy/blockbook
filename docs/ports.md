@@ -24,6 +24,7 @@
 | PIVX                 | 9049                    | 9149                  | 8049             | 38349                       |
 | Zcoin                | 9050                    | 9150                  | 8050             | 38350                       |
 | Koto                 | 9051                    | 9151                  | 8051             | 38351                       |
+| Badcoin              | 9052                    | 9152                  | 8052             | 38352                       |
 | Flo                  | 9066                    | 9166                  | 8066             | 38366                       |
 | Bitcoin Testnet      | 19030                   | 19130                 | 18030            | 48330                       |
 | Bitcoin Cash Testnet | 19031                   | 19131                 | 18031            | 48331                       |
@@ -36,6 +37,7 @@
 | Groestlcoin Testnet  | 19045                   | 19145                 | 18045            | 48345                       |
 | PIVX Testnet         | 19049                   | 19149                 | 18049            | 48349                       |
 | Koto Testnet         | 19051                   | 19151                 | 18051            | 48351                       |
+| Badcoin Testnet      | 19052                   | 19152                 | 18052            | 48352                       |
 | Flo Testnet          | 19066                   | 19166                 | 18066            | 48366                       |
 
 > NOTE: This document is generated from coin definitions in `configs/coins`.

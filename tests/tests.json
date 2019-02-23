@@ -1,4 +1,10 @@
 {
+    "badcoin": {
+        "rpc": []
+    },
+    "badcoin_testnet": {
+        "rpc": []
+    },
     "bcash": {
         "rpc": ["GetBlock", "GetBlockHash", "GetTransaction", "GetTransactionForMempool", "MempoolSync",
                 "EstimateFee", "GetBestBlockHash", "GetBestBlockHeight", "GetBlockHeader"],
