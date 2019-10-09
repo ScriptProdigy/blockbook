@@ -2,6 +2,9 @@
     "badcoin": {
         "rpc": []
     },
+    "talentcoin": {
+        "rpc": []
+    },
     "badcoin_testnet": {
         "rpc": []
     },
