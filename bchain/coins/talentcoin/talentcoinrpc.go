@@ -23,8 +23,8 @@ func NewTalentcoinRPC(config json.RawMessage, pushHandler func(bchain.Notificati
 	s := &TalentcoinRPC{
 		b.(*btc.BitcoinRPC),
 	}
-	s.RPCMarshaler = btc.JSONMarshalerV2{}
-	s.ChainConfig.SupportsEstimateFee = false
+	s.RPCMarshaler = btc.JSONMarshalerV1{}
+	s.ChainConfig.SupportsEstimateSmartFee = false
 
 	return s, nil
 }
