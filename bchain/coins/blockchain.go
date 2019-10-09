@@ -2,6 +2,7 @@ package coins
 
 import (
 	"blockbook/bchain"
+	"blockbook/bchain/coins/badcoin"
 	"blockbook/bchain/coins/bch"
 	"blockbook/bchain/coins/btc"
 	"blockbook/bchain/coins/btg"
@@ -18,9 +19,9 @@ import (
 	"blockbook/bchain/coins/litecoin"
 	"blockbook/bchain/coins/monacoin"
 	"blockbook/bchain/coins/myriad"
-	"blockbook/bchain/coins/badcoin"
 	"blockbook/bchain/coins/namecoin"
 	"blockbook/bchain/coins/pivx"
+	"blockbook/bchain/coins/talentcoin"
 	"blockbook/bchain/coins/vertcoin"
 	"blockbook/bchain/coins/xzc"
 	"blockbook/bchain/coins/zec"
@@ -62,6 +63,8 @@ func init() {
 	BlockChainFactories["Dogecoin"] = dogecoin.NewDogecoinRPC
 	BlockChainFactories["Vertcoin"] = vertcoin.NewVertcoinRPC
 	BlockChainFactories["Vertcoin Testnet"] = vertcoin.NewVertcoinRPC
+	BlockChainFactories["Talentcoin"] = talentcoin.NewTalentcoinRPC
+	BlockChainFactories["Talentcoin Testnet"] = talentcoin.NewTalentcoinRPC
 	BlockChainFactories["Namecoin"] = namecoin.NewNamecoinRPC
 	BlockChainFactories["Monacoin"] = monacoin.NewMonacoinRPC
 	BlockChainFactories["Monacoin Testnet"] = monacoin.NewMonacoinRPC
